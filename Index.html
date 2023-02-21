@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut icon" type="Image/png" href="img/logo2.png"> 
+    <title>Wattpad</title>
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--style.css--->
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+    <!--nav bar--->
+    <nav>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="Logo">
+            
+            <div class="search-bar">
+                <i class="uil uil-search"></i>
+                <input type="search" placeholder="Search For Create, Inspiration, and Projects">
+            </div>
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <div class="profile-photo">
+                    <img src="img/perfil1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-----MAIN----->
+    <main>
+        <div class="container">
+
+            <!------------------------left------------------------>
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-photo">
+                        <img src="img/perfil1.jpg" alt="">
+                    </div>
+                    <div class="handle">
+                        <h4>FS</h4>
+                        <p class="text-muted">@flormsalvador</p>
+                    </div>
+                </a>
+
+                <!---------------------------SIDEBAR-------------------------->
+                <div class="sidebar">
+                    <a class="menu-item active">
+                        <span><i class="uil uil-home"></i></span><h3>Home</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-compass"></i></span><h3>Explore</h3>
+                    </a>
+                    <a href="https://www.wattpad.com/home" class="menu-item">
+                        <span><i class="uil uil-book-open"></i></span><h3>Library</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                        <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span><h3>Notifications</h3>
+                        <!--------------------NOTIFICATION POPUP----------------------->
+                        <div class="notifications-popup">
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Jhon Martinez</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil2.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ariana Godoy</b> commented on your post
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil2.png" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Ana Sofia</b> and <b>283 others </b>liked your post
+                                    <small class="text-muted">4 MINUTES</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil3.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Z E L Á ♡</b> commented on a post you are tagged 
+                                    in
+                                    <small class="text-muted">2 DAYS AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil4-LAPTOP-68VR45A9.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Alex Mírez</b> commented on a post you are tagged 
+                                    in
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profile-photo">
+                                    <img src="img/perfil5.jpg" alt="">
+                                </div>
+                                <div class="notification-body">
+                                    <b>Joana Marcús</b> commented on a post you
+                                    <small class="text-muted">1 HOUR AGO</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!--------------------END NOTIFICATION POPUP------------------->
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <span><i class="uil uil-envelope-alt"><small class="notification-count">6</small></i></span><h3>Messagse</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-bookmark"></i></span><h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-chart-line"></i></span><h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                        <span><i class="uil uil-palette"></i></span><h3>Theme</h3>
+                    </a>
+                    <a class="menu-item">
+                        <span><i class="uil uil-setting"></i></span><h3>Settings</h3>
+                    </a>
+                        
+                </div>
+                <!------------------------END OF SIDEBAR---------------------->
+
+                <label class="btn btn-primary" for="create-post">Create Post</label>
+            </div>
+
+            <!------------------------middle---------------------->
+            <div class="middle">
+                <!------------------------Stories----------------->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil1.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil.jpg" alt="">
+                        </div>
+                        <p class="name">Jhon Martinez</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil4-LAPTOP-68VR45A9.jpg" alt="">
+                        </div>
+                        <p class="name">Alex Mírez</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil2.png" alt="">
+                        </div>
+                        <p class="name">Ana Sofia</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil3.jpg" alt="">
+                        </div>
+                        <p class="name">Z E L Á ♡</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-photo">
+                            <img src="img/perfil2.jpg" alt="">
+                        </div>
+                        <p class="name">Ariana Godoy</p>
+                    </div>
+                </div>
+                
+                
+                <form class="create-post">
+                    <div class="profile-photo">
+                        <img src="img/perfil1.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="What's on your mind, Flor?" id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!------------------------FEEDS----------------->
+                <div class="feeds">
+                    <!------------------------FEED 1------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil2.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ariana Godoy</h3>
+                                    <small>Forida, 15 MINUTES AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/feed.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Flor</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Ariana Godoy</b>💜 Follow my voice now in bookstores 💜<span class="harsh-tag">#Wattpad</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                    <!------------------------FEED 2------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil1.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Flor M Salvador</h3>
+                                    <small>MEXICO, 2 HOURS AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/feed2.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Z E L Á ♡</b> and <b>9,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Flor M Salvador</b>📣 IN CASE YOU DON'T KNOW YET: there is a second Silence book, which is entitled “Sounds: the sequel” and is on sale until January 2023.<span class="harsh-tag">#Wattpad</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                    <!------------------------FEED 3------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil3.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Z E L Á ♡</h3>
+                                    <small>Monterrey, 1 MINUTES AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/feed3.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Ariana Godoy</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Z E L Á ♡</b>¡MIRADAS AZUCARADAS EN MÉXICO! 🦄<span class="harsh-tag">#Wattpad</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                    <!------------------------FEED 4------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil4-LAPTOP-68VR45A9.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Alex Mírez</h3>
+                                    <small>Caracas, 10 MINUTES AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/feed4.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Ana Sofia</b> and <b>5,623 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Alex Mírez</b>We have Perfect Liars converted to French <span class="harsh-tag">#Wattpad</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                    <!------------------------FEED 5------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil2.png" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Ana Sofia</h3>
+                                    <small>Canada, 15 MINUTES AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/feed5.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Alex Mírez</b> and <b>8,100 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Ana Sofia</b> Books are the greatest treasure a person can have. ⭐️<span class="harsh-tag">#Wattpad</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                    <!------------------------FEED 6------------->
+                    <div class="feed">
+                        <div class="head">
+                            <div class="user">
+                                <div class="profile-photo">
+                                    <img src="img/perfil.jpg" alt="">
+                                </div>
+                                <div class="ingo">
+                                    <h3>Jhon Martinez</h3>
+                                    <small>Argentina, 15 MINUTES AGO</small>
+                                </div>
+                                
+                            </div>
+                            <span class="edit"><i class="uil uil-ellipsis-h"></i></span>
+                        </div>
+                        
+                        <div class="photo">
+                            <img src="img/freed6.jpg" alt="">
+                        </div>
+
+                        <div class="action-buttons">
+                            <div class="interaction-buttons">
+                                <span><i class="uil uil-heart"></i></span>
+                                <span><i class="uil uil-comment-dots"></i></span>
+                                <span><i class="uil uil-share"></i></span>
+                            </div>
+                            <div class="bookmark">
+                                <span><i class="uil uil-bookmark"></i></span>
+                            </div>
+                        </div>
+
+                        <div class="liked-by">
+                            <span><img src="img/perfil5.jpg" alt=""></span>
+                            <span><img src="img/perfil2.png" alt=""></span>
+                            <span><img src="img/perfil3.jpg" alt=""></span>
+                            <p>Like by <b>Z E L Á ♡</b> and <b>2,323 others</b></p>
+                        </div>
+                        <div class="caption">
+                            <p><b>Jhon Martinez</b> my collection is complete <span class="harsh-tag">#After</span></p>
+                        </div>
+                        <div class="comments text-muted">View all 349 comments</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------------------right------------------------>
+            <div class="right">
+                <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4><i class="uil uil-edit"></i>
+                    </div>
+
+                    <!------------------Search bar------------------>
+                    <div class="search-bar">
+                        <i class="uil uil-search"></i>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+
+                    <!---------------Message Category--------------->
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(7)</h6>
+                    </div>
+
+                    <!--------------------Message 1------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil2.png" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Ana Sofia</h5>
+                            <p class="text-bold">Hi, ¿how are you? 👋🏻</p>
+                        </div>
+                    </div>
+                    <!--------------------Message 2------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Jhon Martinez</h5>
+                            <p class="text-muted"><b>OK</b></p>
+                        </div>
+                    </div>
+                    <!--------------------Message 3------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil2.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Ariana Godoy</h5>
+                            <p class="text-bold">i love that book 😍</p>
+                        </div>
+                    </div>
+                    <!--------------------Message 4------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil3.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Z E L Á ♡</h5>
+                            <p class="text-muted">what are you reading?</p>
+                        </div>
+                    </div>
+                    <!--------------------Message 5------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil4-LAPTOP-68VR45A9.jpg" alt="">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Alex Mírez</h5>
+                            <p class="text-bold">2 new messages</p>
+                        </div>
+                    </div>
+                    <!--------------------Message 6------------------->
+                    <div class="message">
+                        <div class="profile-photo">
+                            <img src="img/perfil5.jpg" alt="">
+                        </div>
+                        <div class="message-body">
+                            <h5>Joana Marcús</h5>
+                            <p class="text-muted">I'm lovin 'it</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!---------------Friend requiests--------------->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <!---------------requiests 1------------>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/perfil6.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Ava Draw</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <!---------------requiests 2------------>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/perfil7.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Lynn Santiago</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <!---------------requiests 3------------>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-photo">
+                                <img src="img/perfil8.jpg" alt="">
+                            </div>
+                            <div>
+                                <h5>Gaby Ariza</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-----THEME CUSTOMIZATION----->
+    <div class="customize-theme">
+        <div class="card">
+            <h2>Customize Your View</h2>
+            <p class="text-muted">Manage your font size, color, and background.</p>
+
+            <!-----Font sizes----->
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                <div class="choose-size">
+                    <span class="font-size-1"></span>
+                    <span class="font-size-2 active"></span>
+                    <span class="font-size-3"></span>
+                    <span class="font-size-4"></span>
+                    <span class="font-size-5"></span>
+                </div>
+                    <h3>Aa</h3>    
+                </div>
+            </div>
+
+            <!-----Primary colors----->
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!-----Background colors----->
+            <div class="background">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dim</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Dark</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--script.js--->
+    <script src="script.js"></script>
+
+</body>
+</html>
